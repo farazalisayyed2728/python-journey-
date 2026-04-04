@@ -9,6 +9,7 @@ def Timer(func):
         return result
     
     return wrapper
+    
 @Timer    
 def example_func(n):
     time.sleep(n)
